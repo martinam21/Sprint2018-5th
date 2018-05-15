@@ -72,7 +72,7 @@ public class MainClass extends JFrame implements Runnable, KeyListener {
 		bg.drawString("Kills:"+kills, 50, 100);
 		if(myShip.isDead){
 			bg.setColor(Color.red);
-			bg.drawString("U gay",WIDTH/2-75, HEIGHT/2);
+			bg.drawString("Game Over",WIDTH/2-75, HEIGHT/2);
 		}
 		g.drawImage(offScreen, 0, 0, null);
 	}
